@@ -23,6 +23,16 @@ const App = () => {
       name: "sathish",
       age: 26,
     },
+    {
+      id: 5,
+      name: "Ram",
+      age: 24,
+    },
+    {
+      id: 6,
+      name: "siva",
+      age: 16,
+    },
   ];
   const intialRef = useRef({});
   const handleChange = (id, field, value) => {
@@ -34,8 +44,8 @@ const App = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const editedRows = Object.values(intialRef.current);
-    console.log(editedRows);
+    const editedRows = Object.keys(intialRef.current);
+    console.log("Edited rows:", editedRows);
     intialRef.current = {};
   };
   return (

@@ -55,6 +55,7 @@ const App = () => {
         <table>
           <thead>
             <tr>
+              <td>Id</td>
               <td>Name</td>
               <td>Age</td>
             </tr>
@@ -62,6 +63,7 @@ const App = () => {
           <tbody>
             {IntialData.map((row) => (
               <tr key={row.id}>
+                <td>{row.id}</td>
                 <td>
                   <input
                     type="text"

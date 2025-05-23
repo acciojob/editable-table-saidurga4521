@@ -30,7 +30,7 @@ const App = () => {
     },
     {
       id: 6,
-      name: "Lakshimi",
+      name: "Lakshmi",
       age: 40,
     },
   ];

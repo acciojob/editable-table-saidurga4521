@@ -15,7 +15,7 @@ const App = () => {
     },
     {
       id: 3,
-      name: "All",
+      name: "Ali",
       age: 35,
     },
     {

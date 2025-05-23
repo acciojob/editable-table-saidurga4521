@@ -5,33 +5,33 @@ const App = () => {
   const IntialData = [
     {
       id: 1,
-      name: "sai",
-      age: 22,
+      name: "Ram",
+      age: 25,
     },
     {
       id: 2,
-      name: "durga",
-      age: 23,
+      name: "Shyam",
+      age: 30,
     },
     {
       id: 3,
-      name: "prasad",
-      age: 21,
+      name: "All",
+      age: 35,
     },
     {
       id: 4,
-      name: "sathish",
-      age: 26,
+      name: "Shaw",
+      age: 20,
     },
     {
       id: 5,
-      name: "Ram",
-      age: 24,
+      name: "Tavneet",
+      age: 50,
     },
     {
       id: 6,
-      name: "siva",
-      age: 16,
+      name: "Lakshimi",
+      age: 40,
     },
   ];
   const intialRef = useRef({});

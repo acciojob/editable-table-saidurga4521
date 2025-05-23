@@ -45,7 +45,8 @@ const App = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const editedRows = Object.keys(intialRef.current);
-    console.log("Edited rows:", editedRows);
+    const numEditedRows = editedRows.map(Number);
+    console.log("Edited rows:", numEditedRows);
     intialRef.current = {};
   };
   return (
